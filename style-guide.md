@@ -8,7 +8,7 @@ The designs were created to the following widths:
 - Desktop: 1440px
 
 ## Colors
-
+Alabaster
 ### Primary
 
 - Marine blue: hsl(213, 96%, 18%)
