@@ -1,0 +1,46 @@
+{
+  "id": "plan",
+  "title": "Select your plan",
+  "description": "You have the option of monthly or yearly biling.",
+  "plans": {
+    "arcade": {
+      "id": "arcade",
+      "icon": "./icons/icon-arcade.svg",
+      "text": "Arcade",
+      "monthly": {
+        "price": "$9/mo",
+        "text": false
+      },
+      "yearly": {
+        "price": "$90/yr",
+        "text": "2 months free"
+      }
+    },
+    "advanced": {
+      "id": "advanced",
+      "icon": "./icons/icon-advanced.svg",
+      "text": "Advanced",
+      "monthly": {
+        "price": "$12/mo",
+        "text": false
+      },
+      "yearly": {
+        "price": "$120/yr",
+        "text": "2 months free"
+      }
+    },
+    "pro": {
+      "id": "pro",
+      "icon": "./icons/icon-pro.svg",
+      "text": "Pro",
+      "monthly": {
+        "price": "$15/mo",
+        "text": false
+      },
+      "yearly": {
+        "price": "$150/yr",
+        "text": "2 months free"
+      }
+    }
+  }
+}

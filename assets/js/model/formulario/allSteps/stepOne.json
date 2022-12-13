@@ -1,0 +1,31 @@
+{
+  "id": "personalInfo",
+  "title": "Personal info",
+  "description": "Please provide your name, emal address, and phone number.",
+  "fields": [
+    {
+      "id": "name",
+      "label": "Name",
+      "type": "text",
+      "placeholder": "e.g. Stephen King",
+      "pattern": "[a-zA-Z]+",
+      "maxlength": false
+    },
+    {
+      "id": "email",
+      "label": "Email Address",
+      "type": "email",
+      "placeholder": "e.g.stephenking@lorem.com",
+      "pattern": "[a-z0-9._%+-]+@[a-z0-9.-]+[a-z]{2,4}$",
+      "maxlength": false
+    },
+    {
+      "id": "phone",
+      "label": "Phone Number",
+      "type": "tel",
+      "placeholder": "+55 11 91234-5678",
+      "pattern": "[0-9]{2} [0-9]{2} [0-9]{5}-[0-9]{4}",
+      "maxlength": 17
+    }
+  ]
+}
